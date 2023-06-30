@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+#canvas{
+    width:100%;
+    height:80vh;
+    border:3px solid red;
+    background-color: black;
+    border-radius:0%;
+    background:linear-gradient(rgb(93, 93, 185),rgb(157, 195, 207),white,white,rgb(101, 206, 101));
+}
+
+.jconfirm .jconfirm-box.jconfirm-animation-news{
+
+    transform: rotate(400deg) scale(0);
+}
+
+#audio-player{
+    display:none;
+    background-color: #95B9C7;
+}
+
+#audio-player::-webkit-media-controls-panel{
+    background:linear-gradient(blue,lightblue,white,white,green);
+}
